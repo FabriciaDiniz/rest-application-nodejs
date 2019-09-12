@@ -4,7 +4,8 @@
   "description": "Um gateway para pagamentos através de recursos http",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,16 @@
   },
   "homepage": "https://github.com/FabriciaDiniz/rest-application-nodejs#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "consign": "^0.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-validator": "5.3.1",
+    "fs": "0.0.1-security",
+    "mysql": "^2.17.1",
+    "restify": "^8.4.0",
+    "soap": "^0.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
   }
 }
